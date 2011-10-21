@@ -5,9 +5,11 @@ module VagrantPutty
     register "putty", "PuTTY into the VM environment"
 
     def execute
-      vagrant_path = Gem.loaded_specs['vagrant'].full_gem_path
-      key = File.join vagrant_path, "keys", "vagrant.ppk"
-      system("putty vagrant@localhost -i #{key} -P 2222")
+      system("putty vagrant@localhost -i #{self.class.ppk_path} -P 2222")
+    end
+    
+    def self.ppk_path
+      File.join Gem.loaded_specs['vagrant'].full_gem_path, "keys", "vagrant.ppk"
     end
   end
 end
