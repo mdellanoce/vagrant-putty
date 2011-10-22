@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Michael Dellanoce"]
   s.email       = ["michael.dellanoce@gmail.com"]
-  s.homepage    = "http://rubygems.org/gems/vagrant-rake"
+  s.homepage    = "http://rubygems.org/gems/vagrant-putty"
   s.summary     = "A Vagrant plugin to PuTTY into a VM"
   s.description = "A Vagrant plugin to PuTTY into a VM"
 
