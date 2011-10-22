@@ -4,10 +4,9 @@ A [vagrant](http://vagrantup.com) plugin that allows you to [PuTTY](http://www.c
 
 # How do I use it?
 
-Install it (it will be published on rubygems.org eventually):
+Install it:
 <pre>
-git clone git@github.com:mdellanoce/vagrant-putty.git
-rake install
+gem install vagrant-putty
 </pre>
 
 Use it:
