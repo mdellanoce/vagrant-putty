@@ -13,3 +13,7 @@ Use it:
 <pre>
 vagrant putty
 </pre>
+
+# Assumptions
+
+The putty executable is somewhere on your path.
